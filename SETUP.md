@@ -155,6 +155,11 @@ python -c "import pydeseq2; print('PyDESeq2 OK')"
 
 ## Troubleshooting
 
+**`qiime: command not found` after activating the environment** — If you have Anaconda already installed, `conda activate` may look in the wrong place. Use the full path instead:
+```bash
+conda activate ~/micromamba/envs/qiime2-amplicon-2025.4
+```
+
 **`mamba: command not found`** — Close and reopen the terminal, then try again. If it persists, run `source ~/.bashrc`.
 
 **WSL2 install fails on Windows** — Make sure virtualization is enabled in your BIOS. Search "enable virtualization Windows 11" for your specific laptop model.
