@@ -8,18 +8,23 @@ Follow these steps **before the first class**. The full installation takes 20–
 
 ### 1. Install Miniforge3 (includes mamba)
 
-Download and run the installer:
+First, check what kind of Mac you have: Apple menu → About This Mac.
+- **Apple Silicon (M1/M2/M3/M4):** use the `arm64` installer
+- **Intel Mac:** use the `x86_64` installer
 
+**Apple Silicon:**
 ```bash
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh"
 bash Miniforge3-MacOSX-arm64.sh
 ```
 
-> If you have an older Intel Mac, replace `arm64` with `x86_64` in the filename.
+**Intel Mac:**
+```bash
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-x86_64.sh"
+bash Miniforge3-MacOSX-x86_64.sh
+```
 
-Follow the prompts, accept the license, and let it initialize. Then restart your terminal.
-
-Verify it works:
+Follow the prompts, accept the license, and let it initialize. Then restart your terminal and verify:
 ```bash
 mamba --version
 ```
@@ -28,12 +33,21 @@ mamba --version
 
 ### 2. Install QIIME2 (Módulo 1)
 
-Download the official QIIME2 environment file and create the environment:
+> QIIME2 on Apple Silicon runs in Rosetta 2 emulation mode — this is expected and works correctly.
 
+**Apple Silicon:**
 ```bash
-curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2024.10-py310-osx-conda.yml" -o qiime2-env.yml
-mamba env create -n qiime2-amplicon-2024.10 -f qiime2-env.yml
-conda activate qiime2-amplicon-2024.10
+curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2025.4-py310-osx-conda.yml" -o qiime2-env.yml
+CONDA_SUBDIR=osx-64 mamba env create -n qiime2-amplicon-2025.4 -f qiime2-env.yml
+conda activate qiime2-amplicon-2025.4
+conda config --env --set subdir osx-64
+```
+
+**Intel Mac:**
+```bash
+curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2025.4-py310-osx-conda.yml" -o qiime2-env.yml
+mamba env create -n qiime2-amplicon-2025.4 -f qiime2-env.yml
+conda activate qiime2-amplicon-2025.4
 ```
 
 Verify:
@@ -97,12 +111,10 @@ cd clases-sistemas-microbiologicos
 
 ### 4. Install QIIME2 (Módulo 1)
 
-Download the official QIIME2 environment file and create the environment:
-
 ```bash
-curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2024.10-py310-linux-conda.yml" -o qiime2-env.yml
-mamba env create -n qiime2-amplicon-2024.10 -f qiime2-env.yml
-conda activate qiime2-amplicon-2024.10
+curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2025.4-py310-linux-conda.yml" -o qiime2-env.yml
+mamba env create -n qiime2-amplicon-2025.4 -f qiime2-env.yml
+conda activate qiime2-amplicon-2025.4
 ```
 
 Verify:
@@ -129,11 +141,9 @@ Copy the URL that appears (starting with `http://127.0.0.1:8888/...`) and paste 
 
 ## Verify everything is working
 
-Run this after setup to confirm both environments are ready:
-
 ```bash
 # QIIME2
-conda activate qiime2-amplicon-2024.10
+conda activate qiime2-amplicon-2025.4
 qiime --version
 jupyter notebook --version
 
