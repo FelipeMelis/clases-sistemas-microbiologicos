@@ -51,7 +51,7 @@ cd clases-sistemas-microbiologicos
 ```bash
 curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2025.4-py310-osx-conda.yml" -o qiime2-env.yml
 CONDA_SUBDIR=osx-64 mamba env create -n qiime2-amplicon-2025.4 -f qiime2-env.yml
-conda activate qiime2-amplicon-2025.4
+mamba activate qiime2-amplicon-2025.4
 conda config --env --set subdir osx-64
 ```
 
@@ -59,7 +59,7 @@ conda config --env --set subdir osx-64
 ```bash
 curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2025.4-py310-osx-conda.yml" -o qiime2-env.yml
 mamba env create -n qiime2-amplicon-2025.4 -f qiime2-env.yml
-conda activate qiime2-amplicon-2025.4
+mamba activate qiime2-amplicon-2025.4
 ```
 
 Verify:
@@ -126,7 +126,7 @@ cd clases-sistemas-microbiologicos
 ```bash
 curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2025.4-py310-linux-conda.yml" -o qiime2-env.yml
 mamba env create -n qiime2-amplicon-2025.4 -f qiime2-env.yml
-conda activate qiime2-amplicon-2025.4
+mamba activate qiime2-amplicon-2025.4
 ```
 
 Verify:
@@ -155,7 +155,7 @@ Copy the URL that appears (starting with `http://127.0.0.1:8888/...`) and paste 
 
 ```bash
 # QIIME2
-conda activate qiime2-amplicon-2025.4
+mamba activate qiime2-amplicon-2025.4
 qiime --version
 jupyter notebook --version
 
@@ -167,9 +167,9 @@ python -c "import pydeseq2; print('PyDESeq2 OK')"
 
 ## Troubleshooting
 
-**`qiime: command not found` after activating the environment** — If you have Anaconda already installed, `conda activate` may look in the wrong place. Use the full path instead:
+**`qiime: command not found` after activating the environment** — If you have Anaconda already installed, `mamba activate` may look in the wrong place. Use the full path instead:
 ```bash
-conda activate ~/micromamba/envs/qiime2-amplicon-2025.4
+mamba activate ~/micromamba/envs/qiime2-amplicon-2025.4
 ```
 
 **`mamba: command not found`** — Close and reopen the terminal, then try again. If it persists, run `source ~/.bashrc`.
