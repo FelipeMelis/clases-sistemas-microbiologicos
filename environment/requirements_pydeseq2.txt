@@ -1,0 +1,8 @@
+pydeseq2>=0.4.0
+pandas>=1.5
+numpy>=1.23
+matplotlib>=3.6
+seaborn>=0.12
+jupyter>=1.0
+scikit-learn>=1.2
+adjustText>=0.8

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+.env
+
+# QIIME2 artifacts (large files)
+*.qza
+*.qzv
+
+# Data files (add explicitly if small enough to commit)
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Conda
+.conda/

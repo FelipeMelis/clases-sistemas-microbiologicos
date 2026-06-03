@@ -1,0 +1,17 @@
+name: qiime2-amplicon-2024.10
+channels:
+  - qiime2
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - qiime2
+  - q2-dada2
+  - q2-diversity
+  - q2-taxa
+  - q2-feature-table
+  - q2-demux
+  - q2-quality-filter
+  - notebook
+  - matplotlib
+  - seaborn
