@@ -41,6 +41,8 @@ git clone https://github.com/FelipeMelis/clases-sistemas-microbiologicos.git
 cd clases-sistemas-microbiologicos
 ```
 
+> Keep this terminal open for the next steps — they assume you are inside this folder.
+
 ---
 
 ### 3. Install QIIME2 (Módulo 1)
@@ -71,7 +73,10 @@ qiime --version
 
 ### 4. Install PyDESeq2 dependencies (Módulo 2)
 
+Make sure you are in the repo folder and in the base environment:
 ```bash
+cd ~/clases-sistemas-microbiologicos
+conda activate base
 pip install -r environment/requirements_pydeseq2.txt
 ```
 
@@ -121,6 +126,8 @@ git clone https://github.com/FelipeMelis/clases-sistemas-microbiologicos.git
 cd clases-sistemas-microbiologicos
 ```
 
+> Keep this terminal open for the next steps — they assume you are inside this folder.
+
 ### 4. Install QIIME2 (Módulo 1)
 
 ```bash
@@ -136,14 +143,18 @@ qiime --version
 
 ### 5. Install PyDESeq2 dependencies (Módulo 2)
 
+Make sure you are in the repo folder and in the base environment:
 ```bash
+cd ~/clases-sistemas-microbiologicos
+conda activate base
 pip install -r environment/requirements_pydeseq2.txt
 ```
 
 ### 6. Open Jupyter notebooks from WSL2
 
-Inside WSL2, run:
+Activate the QIIME2 environment first, then launch Jupyter:
 ```bash
+conda activate qiime2-amplicon-2025.4
 jupyter notebook
 ```
 
@@ -159,7 +170,8 @@ conda activate qiime2-amplicon-2025.4
 qiime --version
 jupyter notebook --version
 
-# PyDESeq2
+# PyDESeq2 — run from base environment
+conda activate base
 python -c "import pydeseq2; print('PyDESeq2 OK')"
 ```
 
@@ -169,7 +181,7 @@ python -c "import pydeseq2; print('PyDESeq2 OK')"
 
 **`qiime: command not found` after activating the environment** — If you have Anaconda already installed, `conda activate` may look in the wrong place. Use the full path instead:
 ```bash
-conda activate ~/micromamba/envs/qiime2-amplicon-2025.4
+conda activate ~/miniforge3/envs/qiime2-amplicon-2025.4
 ```
 
 **`mamba: command not found`** — Close and reopen the terminal, then try again. If it persists, run `source ~/.bashrc`.
