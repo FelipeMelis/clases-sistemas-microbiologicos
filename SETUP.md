@@ -32,7 +32,7 @@ Download the official QIIME2 environment file and create the environment:
 
 ```bash
 curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2024.10-py310-osx-conda.yml" -o qiime2-env.yml
-mamba env create -f qiime2-env.yml
+mamba env create -n qiime2-amplicon-2024.10 -f qiime2-env.yml
 conda activate qiime2-amplicon-2024.10
 ```
 
@@ -101,7 +101,7 @@ Download the official QIIME2 environment file and create the environment:
 
 ```bash
 curl -sL "https://data.qiime2.org/distro/amplicon/qiime2-amplicon-2024.10-py310-linux-conda.yml" -o qiime2-env.yml
-mamba env create -f qiime2-env.yml
+mamba env create -n qiime2-amplicon-2024.10 -f qiime2-env.yml
 conda activate qiime2-amplicon-2024.10
 ```
 
