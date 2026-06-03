@@ -21,5 +21,11 @@ dist/
 .DS_Store
 Thumbs.db
 
+# IDE
+.idea/
+
+# Temp QIIME2 env file downloaded during setup
+qiime2-env.yml
+
 # Conda
 .conda/
