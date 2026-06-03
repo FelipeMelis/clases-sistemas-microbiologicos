@@ -33,7 +33,17 @@ mamba --version
 
 ---
 
-### 2. Install QIIME2 (Módulo 1)
+### 2. Clone the class repo
+
+```bash
+cd ~
+git clone https://github.com/FelipeMelis/clases-sistemas-microbiologicos.git
+cd clases-sistemas-microbiologicos
+```
+
+---
+
+### 3. Install QIIME2 (Módulo 1)
 
 > QIIME2 on Apple Silicon runs in Rosetta 2 emulation mode — this is expected and works correctly.
 
@@ -59,7 +69,7 @@ qiime --version
 
 ---
 
-### 3. Install PyDESeq2 dependencies (Módulo 2)
+### 4. Install PyDESeq2 dependencies (Módulo 2)
 
 ```bash
 pip install -r environment/requirements_pydeseq2.txt
