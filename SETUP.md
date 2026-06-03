@@ -6,22 +6,22 @@ Follow these steps **before the first class**. The full installation takes 20–
 
 ## Mac
 
-### 1. Install Miniconda
+### 1. Install Mambaforge
 
 Download and run the installer:
 
 ```bash
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-MacOSX-arm64.sh
-bash Miniconda3-latest-MacOSX-arm64.sh
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-MacOSX-arm64.sh"
+bash Mambaforge-MacOSX-arm64.sh
 ```
 
 > If you have an older Intel Mac, replace `arm64` with `x86_64` in the filename.
 
-Follow the prompts, accept the license, and let it initialize conda. Then restart your terminal.
+Follow the prompts, accept the license, and let it initialize. Then restart your terminal.
 
 Verify it works:
 ```bash
-conda --version
+mamba --version
 ```
 
 ---
@@ -29,7 +29,7 @@ conda --version
 ### 2. Install QIIME2 (Módulo 1)
 
 ```bash
-conda env create -f environment/environment_qiime2.yml
+mamba env create -f environment/environment_qiime2.yml
 conda activate qiime2-amplicon-2024.10
 ```
 
@@ -70,18 +70,18 @@ uname -a
 # Should show something like: Linux ... x86_64 GNU/Linux
 ```
 
-### 2. Install Miniconda inside WSL2
+### 2. Install Mambaforge inside WSL2
 
 Inside the Ubuntu terminal:
 
 ```bash
-curl -O https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh"
+bash Mambaforge-Linux-x86_64.sh
 ```
 
-Follow the prompts and let it initialize conda. Then restart the terminal and verify:
+Follow the prompts and let it initialize. Then restart the terminal and verify:
 ```bash
-conda --version
+mamba --version
 ```
 
 ### 3. Clone the class repo inside WSL2
@@ -95,7 +95,7 @@ cd clases-sistemas-microbiologicos
 ### 4. Install QIIME2 (Módulo 1)
 
 ```bash
-conda env create -f environment/environment_qiime2.yml
+mamba env create -f environment/environment_qiime2.yml
 conda activate qiime2-amplicon-2024.10
 ```
 
@@ -139,7 +139,7 @@ python -c "import pydeseq2; print('PyDESeq2 OK')"
 
 ## Troubleshooting
 
-**`conda: command not found`** — Close and reopen the terminal, then try again. If it persists, run `source ~/.bashrc`.
+**`mamba: command not found`** — Close and reopen the terminal, then try again. If it persists, run `source ~/.bashrc`.
 
 **WSL2 install fails on Windows** — Make sure virtualization is enabled in your BIOS. Search "enable virtualization Windows 11" for your specific laptop model.
 
