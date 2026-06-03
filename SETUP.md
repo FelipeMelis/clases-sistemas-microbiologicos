@@ -1,8 +1,8 @@
 # Setup Instructions
 
-**Before the first class (required):** complete steps 1, 2, and 3 (Miniforge3 + clone repo + QIIME2). The QIIME2 download is large (~5GB) and takes 20–40 minutes.
+**Before the first class (required):** complete steps 1, 2, and 3 (Miniforge3 + clone repo + QIIME2). The QIIME2 download is large (~5GB) and takes 20–40 minutes. Windows users: complete steps 1, 2, 3, and 4.
 
-**Before Módulo 2 (can wait):** step 4 (PyDESeq2) is quick and can be done right before that session.
+**Before Módulo 2 (can wait):** step 4 (PyDESeq2) for Mac / step 5 (PyDESeq2) for Windows — quick and can be done right before that session.
 
 ---
 
