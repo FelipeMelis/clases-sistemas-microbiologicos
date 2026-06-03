@@ -6,13 +6,13 @@ Follow these steps **before the first class**. The full installation takes 20–
 
 ## Mac
 
-### 1. Install Mambaforge
+### 1. Install Miniforge3 (includes mamba)
 
 Download and run the installer:
 
 ```bash
-curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-MacOSX-arm64.sh"
-bash Mambaforge-MacOSX-arm64.sh
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-MacOSX-arm64.sh"
+bash Miniforge3-MacOSX-arm64.sh
 ```
 
 > If you have an older Intel Mac, replace `arm64` with `x86_64` in the filename.
@@ -70,13 +70,13 @@ uname -a
 # Should show something like: Linux ... x86_64 GNU/Linux
 ```
 
-### 2. Install Mambaforge inside WSL2
+### 2. Install Miniforge3 inside WSL2 (includes mamba)
 
 Inside the Ubuntu terminal:
 
 ```bash
-curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh"
-bash Mambaforge-Linux-x86_64.sh
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh"
+bash Miniforge3-Linux-x86_64.sh
 ```
 
 Follow the prompts and let it initialize. Then restart the terminal and verify:
