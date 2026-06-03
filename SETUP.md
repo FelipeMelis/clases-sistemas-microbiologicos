@@ -1,6 +1,8 @@
 # Setup Instructions
 
-Follow these steps **before the first class**. The full installation takes 20–40 minutes depending on your internet connection.
+**Before the first class (required):** complete steps 1 and 2 (Miniforge3 + QIIME2). This is mandatory since the download is large (~5GB) and takes 20–40 minutes.
+
+**Before Módulo 2 (can wait):** step 3 (PyDESeq2) is quick and can be done right before that session.
 
 ---
 
