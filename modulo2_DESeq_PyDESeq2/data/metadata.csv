@@ -1,0 +1,7 @@
+sample_id,condition,replicate
+ctrl_1,control,1
+ctrl_2,control,2
+ctrl_3,control,3
+treat_1,treated,1
+treat_2,treated,2
+treat_3,treated,3
