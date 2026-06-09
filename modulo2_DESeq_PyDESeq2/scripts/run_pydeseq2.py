@@ -47,6 +47,8 @@ def parse_args():
     p = argparse.ArgumentParser(description="PyDESeq2 differential expression pipeline")
     p.add_argument("--counts",    required=True, help="Counts matrix CSV (genes × samples)")
     p.add_argument("--metadata",  required=True, help="Metadata CSV (samples × variables)")
+    p.add_argument("--gene-metadata", default=None,
+                   help="Optional gene annotation CSV with a gene_id column")
     p.add_argument("--condition", default="condition",
                    help="Column in metadata to use as design factor (default: condition)")
     p.add_argument("--contrast",  nargs=2, default=["treated", "control"],
@@ -92,6 +94,24 @@ def load_data(counts_file, metadata_file, condition_col):
     return counts, meta
 
 
+def load_gene_metadata(gene_metadata_file, gene_ids):
+    if gene_metadata_file is None:
+        return None
+
+    gene_meta = pd.read_csv(gene_metadata_file)
+    if "gene_id" in gene_meta.columns:
+        gene_meta = gene_meta.set_index("gene_id")
+    else:
+        gene_meta = gene_meta.set_index(gene_meta.columns[0])
+
+    overlap = gene_meta.index.intersection(gene_ids)
+    if overlap.empty:
+        sys.exit("No gene IDs match between results and gene metadata.")
+
+    print(f"Gene metadata: {gene_meta.shape[0]} genes × {gene_meta.shape[1]} annotation columns")
+    return gene_meta
+
+
 # ---------------------------------------------------------------------------
 # Plots
 # ---------------------------------------------------------------------------
@@ -107,7 +127,9 @@ def plot_library_sizes(counts, metadata, condition_col, outdir):
     ax.bar(lib.index, lib.values / 1e6, color=colors)
     ax.set_ylabel("Library size (million reads)")
     ax.set_title("Library sizes per sample")
-    ax.set_xticklabels(lib.index, rotation=45, ha="right")
+    ax.tick_params(axis="x", rotation=45)
+    for label in ax.get_xticklabels():
+        label.set_horizontalalignment("right")
     from matplotlib.patches import Patch
     ax.legend(handles=[Patch(color=palette[c], label=c) for c in uniq])
     plt.tight_layout()
@@ -237,7 +259,7 @@ def main():
     dds = DeseqDataSet(
         counts=counts.T,
         metadata=metadata,
-        design_factors=args.condition,
+        design=f"~{args.condition}",
         refit_cooks=True,
         quiet=False
     )
@@ -254,11 +276,22 @@ def main():
     print("\n── Saving results ────────────────────────────────")
     results.to_csv(os.path.join(args.outdir, "deseq2_results_all.csv"))
 
+    gene_metadata = load_gene_metadata(args.gene_metadata, results.index)
+    if gene_metadata is not None:
+        results_annotated = results.join(gene_metadata, how="left")
+        results_annotated.to_csv(os.path.join(args.outdir, "deseq2_results_all_annotated.csv"))
+    else:
+        results_annotated = None
+
     sig = results[
         (results["padj"] < args.fdr) &
         (results["log2FoldChange"].abs() > args.lfc)
     ].sort_values("padj")
     sig.to_csv(os.path.join(args.outdir, "deseq2_results_significant.csv"))
+
+    if results_annotated is not None:
+        sig_annotated = results_annotated.loc[sig.index]
+        sig_annotated.to_csv(os.path.join(args.outdir, "deseq2_results_significant_annotated.csv"))
 
     print(f"\nSignificant genes (|log2FC| > {args.lfc}, FDR < {args.fdr}): {len(sig)}")
     print(f"  Up-regulated:   {(sig['log2FoldChange'] > 0).sum()}")

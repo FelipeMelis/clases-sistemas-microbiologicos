@@ -18,8 +18,23 @@ Entender y ejecutar un flujo estándar de análisis 16S rRNA, desde lecturas cru
 ## Entorno
 
 ```bash
-conda env create -f ../environment/environment_qiime2.yml
-conda activate qiime2-amplicon-2024.10
+micromamba activate qiime2-amplicon-2025.4
+```
+
+## Opción de bajo uso de RAM
+
+El notebook incluye una bandera al inicio:
+
+```python
+USE_SMALL_DATASET = True
+```
+
+Activarla usa `data/raw_reads_small/`, `data/metadata_small.tsv`, `results_small/`, un solo thread de QIIME2 y menos lecturas para aprender el modelo de error de DADA2. Esta opción está pensada para estudiantes con computadores de ~8 GB de RAM o para una demostración rápida en clase.
+
+En modo pequeño, el notebook también usa métricas de diversidad no filogenéticas y omite por defecto la clasificación taxonómica con Silva, porque el clasificador `sklearn` es grande. Para forzar taxonomía en modo pequeño:
+
+```python
+RUN_TAXONOMY = True
 ```
 
 ## Contenido
@@ -29,7 +44,9 @@ conda activate qiime2-amplicon-2024.10
 | `notebook/16S_pipeline.ipynb` | Notebook paso a paso |
 | `scripts/run_qiime2_pipeline.sh` | Versión CLI del pipeline |
 | `data/raw_reads/` | Lecturas FASTQ de ejemplo |
+| `data/raw_reads_small/` | Subconjunto pequeño para computadores con poca RAM |
 | `data/metadata.tsv` | Metadata de las muestras |
+| `data/metadata_small.tsv` | Metadata para el subconjunto pequeño |
 | `data/taxonomy_db/` | Base de datos de taxonomía (ver instrucciones abajo) |
 
 ## Base de datos taxonómica
