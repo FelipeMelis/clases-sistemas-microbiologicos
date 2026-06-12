@@ -1,0 +1,61 @@
+gene_id,locus_tag,gene_symbol,product,functional_category,pathway,interpretation_hint,annotation_source
+GENE_7001,SIM_RS07001,dna7001,DNA repair-associated protein,DNA maintenance,stress repair,Potential maintenance response,synthetic_teaching_annotation
+GENE_7002,SIM_RS07002,hyp7002,Hypothetical protein,unknown,uncharacterized,Requires cautious interpretation,synthetic_teaching_annotation
+GENE_7003,SIM_RS07003,gln7003,Glutamine synthetase family enzyme,amino acid metabolism,nitrogen assimilation,Supports assimilation of limited nitrogen sources,synthetic_teaching_annotation
+GENE_7004,SIM_RS07004,ure7004,Urea utilization protein,energy and nutrient metabolism,nitrogen acquisition,Suggests activation of alternative nitrogen uptake,synthetic_teaching_annotation
+GENE_7005,SIM_RS07005,nar7005,Nitrate transporter-associated protein,transport,nitrogen acquisition,Transport candidate induced by nitrogen limitation,synthetic_teaching_annotation
+GENE_7006,SIM_RS07006,amt7006,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_7007,SIM_RS07007,gst7007,Glutathione transferase-like stress protein,stress response,oxidative stress response,Stress-associated response during nutrient limitation,synthetic_teaching_annotation
+GENE_7008,SIM_RS07008,rpo7008,RNA polymerase-associated regulator,transcription,gene regulation,May reflect transcriptional adjustment,synthetic_teaching_annotation
+GENE_7009,SIM_RS07009,sec7009,Protein secretion pathway component,cell envelope,protein export,Possible envelope remodeling response,synthetic_teaching_annotation
+GENE_7010,SIM_RS07010,rib7010,Ribosomal protein,translation,protein synthesis,Constitutive expression marker,synthetic_teaching_annotation
+GENE_7011,SIM_RS07011,dna7011,DNA repair-associated protein,DNA maintenance,stress repair,Potential maintenance response,synthetic_teaching_annotation
+GENE_7012,SIM_RS07012,hyp7012,Hypothetical protein,unknown,uncharacterized,Requires cautious interpretation,synthetic_teaching_annotation
+GENE_7013,SIM_RS07013,gln7013,Glutamine synthetase family enzyme,amino acid metabolism,nitrogen assimilation,Supports assimilation of limited nitrogen sources,synthetic_teaching_annotation
+GENE_7014,SIM_RS07014,ure7014,Urea utilization protein,energy and nutrient metabolism,nitrogen acquisition,Suggests activation of alternative nitrogen uptake,synthetic_teaching_annotation
+GENE_7015,SIM_RS07015,nar7015,Nitrate transporter-associated protein,transport,nitrogen acquisition,Transport candidate induced by nitrogen limitation,synthetic_teaching_annotation
+GENE_7016,SIM_RS07016,amt7016,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_7017,SIM_RS07017,gst7017,Glutathione transferase-like stress protein,stress response,oxidative stress response,Stress-associated response during nutrient limitation,synthetic_teaching_annotation
+GENE_7018,SIM_RS07018,rpo7018,RNA polymerase-associated regulator,transcription,gene regulation,May reflect transcriptional adjustment,synthetic_teaching_annotation
+GENE_7019,SIM_RS07019,sec7019,Protein secretion pathway component,cell envelope,protein export,Possible envelope remodeling response,synthetic_teaching_annotation
+GENE_7020,SIM_RS07020,rib7020,Ribosomal protein,translation,protein synthesis,Constitutive expression marker,synthetic_teaching_annotation
+GENE_7021,SIM_RS07021,dna7021,DNA repair-associated protein,DNA maintenance,stress repair,Potential maintenance response,synthetic_teaching_annotation
+GENE_7022,SIM_RS07022,hyp7022,Hypothetical protein,unknown,uncharacterized,Requires cautious interpretation,synthetic_teaching_annotation
+GENE_7023,SIM_RS07023,gln7023,Glutamine synthetase family enzyme,amino acid metabolism,nitrogen assimilation,Supports assimilation of limited nitrogen sources,synthetic_teaching_annotation
+GENE_7024,SIM_RS07024,ure7024,Urea utilization protein,energy and nutrient metabolism,nitrogen acquisition,Suggests activation of alternative nitrogen uptake,synthetic_teaching_annotation
+GENE_7025,SIM_RS07025,nar7025,Nitrate transporter-associated protein,transport,nitrogen acquisition,Transport candidate induced by nitrogen limitation,synthetic_teaching_annotation
+GENE_7026,SIM_RS07026,amt7026,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_7027,SIM_RS07027,gst7027,Glutathione transferase-like stress protein,stress response,oxidative stress response,Stress-associated response during nutrient limitation,synthetic_teaching_annotation
+GENE_7028,SIM_RS07028,rpo7028,RNA polymerase-associated regulator,transcription,gene regulation,May reflect transcriptional adjustment,synthetic_teaching_annotation
+GENE_7029,SIM_RS07029,sec7029,Protein secretion pathway component,cell envelope,protein export,Possible envelope remodeling response,synthetic_teaching_annotation
+GENE_7030,SIM_RS07030,rib7030,Ribosomal protein,translation,protein synthesis,Constitutive expression marker,synthetic_teaching_annotation
+GENE_7031,SIM_RS07031,dna7031,DNA repair-associated protein,DNA maintenance,stress repair,Potential maintenance response,synthetic_teaching_annotation
+GENE_7032,SIM_RS07032,hyp7032,Hypothetical protein,unknown,uncharacterized,Requires cautious interpretation,synthetic_teaching_annotation
+GENE_7033,SIM_RS07033,gln7033,Glutamine synthetase family enzyme,amino acid metabolism,nitrogen assimilation,Supports assimilation of limited nitrogen sources,synthetic_teaching_annotation
+GENE_7034,SIM_RS07034,ure7034,Urea utilization protein,energy and nutrient metabolism,nitrogen acquisition,Suggests activation of alternative nitrogen uptake,synthetic_teaching_annotation
+GENE_7035,SIM_RS07035,nar7035,Nitrate transporter-associated protein,transport,nitrogen acquisition,Transport candidate induced by nitrogen limitation,synthetic_teaching_annotation
+GENE_7036,SIM_RS07036,amt7036,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_7037,SIM_RS07037,gst7037,Glutathione transferase-like stress protein,stress response,oxidative stress response,Stress-associated response during nutrient limitation,synthetic_teaching_annotation
+GENE_7038,SIM_RS07038,rpo7038,RNA polymerase-associated regulator,transcription,gene regulation,May reflect transcriptional adjustment,synthetic_teaching_annotation
+GENE_7039,SIM_RS07039,sec7039,Protein secretion pathway component,cell envelope,protein export,Possible envelope remodeling response,synthetic_teaching_annotation
+GENE_7040,SIM_RS07040,rib7040,Ribosomal protein,translation,protein synthesis,Constitutive expression marker,synthetic_teaching_annotation
+GENE_7041,SIM_RS07041,dna7041,DNA repair-associated protein,DNA maintenance,stress repair,Potential maintenance response,synthetic_teaching_annotation
+GENE_7042,SIM_RS07042,hyp7042,Hypothetical protein,unknown,uncharacterized,Requires cautious interpretation,synthetic_teaching_annotation
+GENE_7043,SIM_RS07043,gln7043,Glutamine synthetase family enzyme,amino acid metabolism,nitrogen assimilation,Supports assimilation of limited nitrogen sources,synthetic_teaching_annotation
+GENE_7044,SIM_RS07044,ure7044,Urea utilization protein,energy and nutrient metabolism,nitrogen acquisition,Suggests activation of alternative nitrogen uptake,synthetic_teaching_annotation
+GENE_7045,SIM_RS07045,nar7045,Nitrate transporter-associated protein,transport,nitrogen acquisition,Transport candidate induced by nitrogen limitation,synthetic_teaching_annotation
+GENE_7046,SIM_RS07046,amt7046,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_7047,SIM_RS07047,gst7047,Glutathione transferase-like stress protein,stress response,oxidative stress response,Stress-associated response during nutrient limitation,synthetic_teaching_annotation
+GENE_7048,SIM_RS07048,rpo7048,RNA polymerase-associated regulator,transcription,gene regulation,May reflect transcriptional adjustment,synthetic_teaching_annotation
+GENE_7049,SIM_RS07049,sec7049,Protein secretion pathway component,cell envelope,protein export,Possible envelope remodeling response,synthetic_teaching_annotation
+GENE_7050,SIM_RS07050,rib7050,Ribosomal protein,translation,protein synthesis,Constitutive expression marker,synthetic_teaching_annotation
+GENE_7051,SIM_RS07051,dna7051,DNA repair-associated protein,DNA maintenance,stress repair,Potential maintenance response,synthetic_teaching_annotation
+GENE_7052,SIM_RS07052,hyp7052,Hypothetical protein,unknown,uncharacterized,Requires cautious interpretation,synthetic_teaching_annotation
+GENE_7053,SIM_RS07053,gln7053,Glutamine synthetase family enzyme,amino acid metabolism,nitrogen assimilation,Supports assimilation of limited nitrogen sources,synthetic_teaching_annotation
+GENE_7054,SIM_RS07054,ure7054,Urea utilization protein,energy and nutrient metabolism,nitrogen acquisition,Suggests activation of alternative nitrogen uptake,synthetic_teaching_annotation
+GENE_7055,SIM_RS07055,nar7055,Nitrate transporter-associated protein,transport,nitrogen acquisition,Transport candidate induced by nitrogen limitation,synthetic_teaching_annotation
+GENE_7056,SIM_RS07056,amt7056,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_7057,SIM_RS07057,gst7057,Glutathione transferase-like stress protein,stress response,oxidative stress response,Stress-associated response during nutrient limitation,synthetic_teaching_annotation
+GENE_7058,SIM_RS07058,rpo7058,RNA polymerase-associated regulator,transcription,gene regulation,May reflect transcriptional adjustment,synthetic_teaching_annotation
+GENE_7059,SIM_RS07059,sec7059,Protein secretion pathway component,cell envelope,protein export,Possible envelope remodeling response,synthetic_teaching_annotation
+GENE_7060,SIM_RS07060,rib7060,Ribosomal protein,translation,protein synthesis,Constitutive expression marker,synthetic_teaching_annotation

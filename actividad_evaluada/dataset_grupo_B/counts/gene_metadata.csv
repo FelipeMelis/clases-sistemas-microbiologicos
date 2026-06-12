@@ -1,0 +1,61 @@
+gene_id,locus_tag,gene_symbol,product,functional_category,pathway,interpretation_hint,annotation_source
+GENE_0177,SIM_RS00177,ntr177,Nitrogen regulatory protein,regulation,nitrogen response,Candidate regulator activated during nitrogen limitation,synthetic_teaching_annotation
+GENE_0180,SIM_RS00180,nas180,Nitrate/nitrite assimilation protein,energy and nutrient metabolism,nitrogen assimilation,Consistent with use of alternative nitrogen sources,synthetic_teaching_annotation
+GENE_0196,SIM_RS00196,nas196,Nitrate/nitrite assimilation protein,energy and nutrient metabolism,nitrogen assimilation,Consistent with use of alternative nitrogen sources,synthetic_teaching_annotation
+GENE_0199,SIM_RS00199,gst199,Glutathione transferase-like stress protein,stress response,oxidative stress response,Stress-associated response during nutrient limitation,synthetic_teaching_annotation
+GENE_0200,SIM_RS00200,usp200,Universal stress protein,stress response,general stress response,General stress marker induced by treatment,synthetic_teaching_annotation
+GENE_0217,SIM_RS00217,ntr217,Nitrogen regulatory protein,regulation,nitrogen response,Candidate regulator activated during nitrogen limitation,synthetic_teaching_annotation
+GENE_0235,SIM_RS00235,gln235,Glutamine synthetase family enzyme,amino acid metabolism,nitrogen assimilation,Supports assimilation of limited nitrogen sources,synthetic_teaching_annotation
+GENE_0250,SIM_RS00250,amt250,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_0258,SIM_RS00258,amt258,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_0266,SIM_RS00266,amt266,Ammonium transporter,transport,nitrogen acquisition,Higher expression suggests increased nitrogen scavenging,synthetic_teaching_annotation
+GENE_0277,SIM_RS00277,ure277,Urea utilization protein,energy and nutrient metabolism,nitrogen acquisition,Suggests activation of alternative nitrogen uptake,synthetic_teaching_annotation
+GENE_0280,SIM_RS00280,usp280,Universal stress protein,stress response,general stress response,General stress marker induced by treatment,synthetic_teaching_annotation
+GENE_0283,SIM_RS00283,gln283,Glutamine synthetase family enzyme,amino acid metabolism,nitrogen assimilation,Supports assimilation of limited nitrogen sources,synthetic_teaching_annotation
+GENE_0288,SIM_RS00288,usp288,Universal stress protein,stress response,general stress response,General stress marker induced by treatment,synthetic_teaching_annotation
+GENE_0297,SIM_RS00297,ntr297,Nitrogen regulatory protein,regulation,nitrogen response,Candidate regulator activated during nitrogen limitation,synthetic_teaching_annotation
+GENE_0150,SIM_RS00150,nuo150,NADH dehydrogenase subunit,energy metabolism,respiration,Respiratory activity candidate reduced in treated cultures,synthetic_teaching_annotation
+GENE_0167,SIM_RS00167,atp167,ATP synthase subunit,energy metabolism,oxidative phosphorylation,Energy metabolism candidate reduced under treatment,synthetic_teaching_annotation
+GENE_0184,SIM_RS00184,dna184,DNA replication protein,replication and repair,DNA replication,Reduced replication-associated expression suggests slower proliferation,synthetic_teaching_annotation
+GENE_0192,SIM_RS00192,nuo192,NADH dehydrogenase subunit,energy metabolism,respiration,Respiratory activity candidate reduced in treated cultures,synthetic_teaching_annotation
+GENE_0193,SIM_RS00193,rpl193,Large ribosomal subunit protein,translation,ribosome,Lower expression can indicate slower growth,synthetic_teaching_annotation
+GENE_0197,SIM_RS00197,atp197,ATP synthase subunit,energy metabolism,oxidative phosphorylation,Energy metabolism candidate reduced under treatment,synthetic_teaching_annotation
+GENE_0202,SIM_RS00202,dna202,DNA replication protein,replication and repair,DNA replication,Reduced replication-associated expression suggests slower proliferation,synthetic_teaching_annotation
+GENE_0210,SIM_RS00210,nuo210,NADH dehydrogenase subunit,energy metabolism,respiration,Respiratory activity candidate reduced in treated cultures,synthetic_teaching_annotation
+GENE_0220,SIM_RS00220,dna220,DNA replication protein,replication and repair,DNA replication,Reduced replication-associated expression suggests slower proliferation,synthetic_teaching_annotation
+GENE_0230,SIM_RS00230,rps230,Small ribosomal subunit protein,translation,ribosome,Reduced ribosome expression is consistent with growth limitation,synthetic_teaching_annotation
+GENE_0232,SIM_RS00232,dna232,DNA replication protein,replication and repair,DNA replication,Reduced replication-associated expression suggests slower proliferation,synthetic_teaching_annotation
+GENE_0260,SIM_RS00260,rps260,Small ribosomal subunit protein,translation,ribosome,Reduced ribosome expression is consistent with growth limitation,synthetic_teaching_annotation
+GENE_0265,SIM_RS00265,rpl265,Large ribosomal subunit protein,translation,ribosome,Lower expression can indicate slower growth,synthetic_teaching_annotation
+GENE_0272,SIM_RS00272,rps272,Small ribosomal subunit protein,translation,ribosome,Reduced ribosome expression is consistent with growth limitation,synthetic_teaching_annotation
+GENE_0289,SIM_RS00289,rpl289,Large ribosomal subunit protein,translation,ribosome,Lower expression can indicate slower growth,synthetic_teaching_annotation
+GENE_0020,SIM_RS00020,cell020,Cell envelope biogenesis protein,cell envelope,cell wall and envelope,Cell surface or envelope function,synthetic_teaching_annotation
+GENE_0021,SIM_RS00021,hk021,Conserved hypothetical protein,uncharacterized,unknown,No specific interpretation; inspect only if statistically strong,synthetic_teaching_annotation
+GENE_0022,SIM_RS00022,met022,Central metabolism enzyme,central metabolism,core metabolism,Housekeeping-like metabolic function,synthetic_teaching_annotation
+GENE_0023,SIM_RS00023,abc023,ABC transporter permease,transport,membrane transport,Generic transport function,synthetic_teaching_annotation
+GENE_0024,SIM_RS00024,tca024,Tricarboxylic acid cycle enzyme,energy metabolism,TCA cycle,Core energy metabolism annotation,synthetic_teaching_annotation
+GENE_0025,SIM_RS00025,sec025,Protein export component,protein processing,protein secretion,Protein localization and secretion function,synthetic_teaching_annotation
+GENE_0026,SIM_RS00026,rec026,DNA repair protein,replication and repair,DNA repair,Genome maintenance function,synthetic_teaching_annotation
+GENE_0027,SIM_RS00027,lip027,Lipid metabolism enzyme,lipid metabolism,membrane lipid metabolism,Cell envelope or membrane metabolism candidate,synthetic_teaching_annotation
+GENE_0028,SIM_RS00028,tf028,Transcriptional regulator,regulation,transcription regulation,Regulatory protein; check neighboring genes or pathway context,synthetic_teaching_annotation
+GENE_0029,SIM_RS00029,pep029,Peptidase family protein,protein turnover,proteolysis,Protein turnover function,synthetic_teaching_annotation
+GENE_0030,SIM_RS00030,cell030,Cell envelope biogenesis protein,cell envelope,cell wall and envelope,Cell surface or envelope function,synthetic_teaching_annotation
+GENE_0031,SIM_RS00031,hk031,Conserved hypothetical protein,uncharacterized,unknown,No specific interpretation; inspect only if statistically strong,synthetic_teaching_annotation
+GENE_0032,SIM_RS00032,met032,Central metabolism enzyme,central metabolism,core metabolism,Housekeeping-like metabolic function,synthetic_teaching_annotation
+GENE_0033,SIM_RS00033,abc033,ABC transporter permease,transport,membrane transport,Generic transport function,synthetic_teaching_annotation
+GENE_0034,SIM_RS00034,tca034,Tricarboxylic acid cycle enzyme,energy metabolism,TCA cycle,Core energy metabolism annotation,synthetic_teaching_annotation
+GENE_0035,SIM_RS00035,sec035,Protein export component,protein processing,protein secretion,Protein localization and secretion function,synthetic_teaching_annotation
+GENE_0036,SIM_RS00036,rec036,DNA repair protein,replication and repair,DNA repair,Genome maintenance function,synthetic_teaching_annotation
+GENE_0038,SIM_RS00038,tf038,Transcriptional regulator,regulation,transcription regulation,Regulatory protein; check neighboring genes or pathway context,synthetic_teaching_annotation
+GENE_0039,SIM_RS00039,pep039,Peptidase family protein,protein turnover,proteolysis,Protein turnover function,synthetic_teaching_annotation
+GENE_0040,SIM_RS00040,cell040,Cell envelope biogenesis protein,cell envelope,cell wall and envelope,Cell surface or envelope function,synthetic_teaching_annotation
+GENE_0041,SIM_RS00041,hk041,Conserved hypothetical protein,uncharacterized,unknown,No specific interpretation; inspect only if statistically strong,synthetic_teaching_annotation
+GENE_0042,SIM_RS00042,met042,Central metabolism enzyme,central metabolism,core metabolism,Housekeeping-like metabolic function,synthetic_teaching_annotation
+GENE_0043,SIM_RS00043,abc043,ABC transporter permease,transport,membrane transport,Generic transport function,synthetic_teaching_annotation
+GENE_0044,SIM_RS00044,tca044,Tricarboxylic acid cycle enzyme,energy metabolism,TCA cycle,Core energy metabolism annotation,synthetic_teaching_annotation
+GENE_0045,SIM_RS00045,sec045,Protein export component,protein processing,protein secretion,Protein localization and secretion function,synthetic_teaching_annotation
+GENE_0047,SIM_RS00047,lip047,Lipid metabolism enzyme,lipid metabolism,membrane lipid metabolism,Cell envelope or membrane metabolism candidate,synthetic_teaching_annotation
+GENE_0048,SIM_RS00048,tf048,Transcriptional regulator,regulation,transcription regulation,Regulatory protein; check neighboring genes or pathway context,synthetic_teaching_annotation
+GENE_0049,SIM_RS00049,pep049,Peptidase family protein,protein turnover,proteolysis,Protein turnover function,synthetic_teaching_annotation
+GENE_0050,SIM_RS00050,cell050,Cell envelope biogenesis protein,cell envelope,cell wall and envelope,Cell surface or envelope function,synthetic_teaching_annotation
+GENE_0052,SIM_RS00052,met052,Central metabolism enzyme,central metabolism,core metabolism,Housekeeping-like metabolic function,synthetic_teaching_annotation

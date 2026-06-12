@@ -1,0 +1,5 @@
+#SampleID	Subject	Treatment	Timepoint
+sample1	Mouse1	Control	T0
+sample2	Mouse1	Treated	T1
+sample3	Cat1	Control	T0
+sample4	Cat1	Treated	T1

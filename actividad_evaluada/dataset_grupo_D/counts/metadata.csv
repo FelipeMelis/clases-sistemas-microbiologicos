@@ -1,0 +1,7 @@
+sample_id,condition,replicate,culture_medium,incubation_h,sequencing_batch
+ctrl_2,control,2,rich_glucose,24,batch_1
+ctrl_3,control,3,rich_glucose,24,batch_2
+ctrl_4,control,4,rich_glucose,24,batch_2
+treat_1,treated,1,nitrogen_limited,24,batch_1
+treat_4,treated,4,nitrogen_limited,24,batch_2
+treat_5,treated,5,nitrogen_limited,24,batch_3
