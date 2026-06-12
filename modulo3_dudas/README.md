@@ -9,6 +9,7 @@ Sesión abierta para resolver dudas de los módulos anteriores y avanzar con el 
 - Traer el dataset asignado ya cargado y con el entorno funcionando.
 - Se priorizan preguntas sobre errores concretos en el pipeline.
 - También se puede usar el tiempo para avanzar en la actividad evaluada con supervisión.
+- Revisar visualizaciones `.qzv` seleccionadas del Módulo 1 en `visualizaciones_qiime_view/` usando QIIME2 View.
 
 ## Checklist previo
 
